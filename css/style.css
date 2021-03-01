@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body {
+    height: 100%;
+    background: white;
+}
+
+.scroll_up {
+    color: #ff0000;
+    user-select: none;
+    font-size: 75px;
+    cursor: pointer;
+    position: fixed;
+    top: 150%;
+    left: 93%;
+    transition: 0.5s;
+}
+
+  .scroll_up:hover {
+    color: #940606; /* цвет заднего фона при наведении */
+}
+
+.cut-block {
+    background-image: url(imgcss/razdelitel_img.png);
+    height: 69px;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+.leader-block {
+    height: 875px;
+    background: white;
+}
+
+.lb-all-items {
+    margin-top: 100px;
+}
+
+.leader-text {
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    color: #FF0000;
+}
+
+.sub-text {
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.lesya-bio {
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    width: 30%;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.lesya-photo {
+    float: right;
+    margin-top: 75px;
+    margin-right: 750px;
+    height: 100px;
+    width: 100px;
+}
+
+.lesya-photo img {
+    height: 500px;
+    width: 700px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    border-radius: 30px;
+}
+
+.first-block {
+    margin-top: 100px;
+    background-color: #FFDEDE;
+    height: 910px;
+    padding: 100px;
+}
+
+.fb_leader-text span {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.fb_all-texts {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fb_text-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fb_text-description {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.second-block {
+    background-color: white;
+    height: 1040px;
+}
+
+.second-block-img img {
+    float: left;
+    margin-top: 300px;
+    margin-left: 300px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    border-radius: 30px;
+}
+
+.sb-all-texts {
+    float: right;
+    margin-top: 335px;
+    margin-right: 300px;
+}
+
+.second-block-leader-text {
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.second-block-sub-text {
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.third-block {
+    background-color: #FFDEDE;
+    height: 1040px;
+}
+
+.third-block-img img {
+    float: left;
+    margin-top: 300px;
+    margin-left: 300px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    border-radius: 30px;
+}
+
+.tb-all-texts {
+    float: right;
+    margin-top: 250px;
+    margin-right: 150px;
+}
+
+.third-block-leader-text {
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.third-block-sub-text {
+    margin-top: 60px;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.last-block {
+    height: 870px;
+}
+
+.last-block-imgs {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.last-all-texts {
+    margin-left: 32%;
+    margin-top: -150px;
+}
+
+.last-block-leader-text {
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.last-block-sub-text {
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.lastblock-1-img,.lastblock-2-img,.lastblock-3-img,.lastblock-4-img,.lastblock-5-img {
+    margin-right: 30px;
+}
+
+.lastblock-1-img, .lastblock-5-img {
+    padding-top: 100px;
+}
+
+.lastblock-3-img {
+    padding-top: 70px;
+}
