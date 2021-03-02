@@ -84,7 +84,7 @@ body {
     margin-top: 100px;
     background-color: #FFDEDE;
     height: 1000px;
-    width: 1800px;
+    width: 100%;
     padding: 100px;
 }
 
@@ -124,7 +124,7 @@ body {
 .second-block {
     background-color: #FFFFFF;
     height: 1040px;
-    width: 2000px;
+    width: 100%;
 }
 
 .second-block-img img {
@@ -160,7 +160,7 @@ body {
 .third-block {
     background-color: #FFDEDE;
     height: 1040px;
-    width: 2000px;
+    width: 100%;
 }
 
 .third-block-img img {
@@ -194,7 +194,7 @@ body {
 
 .last-block { 
     height: 920px;
-    width: 2000px; 
+    width: 100%; 
 }
 
 .last-block-imgs {
