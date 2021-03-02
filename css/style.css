@@ -22,7 +22,7 @@ body {
 .cut-block {
     background-image: url(imgcss/razdelitel_img.png);
     height: 69px;
-    width: 2000px;
+    width: 100%;
 }
 .wrapper { height: 100%; }
 
